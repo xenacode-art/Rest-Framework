@@ -5,7 +5,6 @@ from .models import GeeksModel
 
 
 # Create a model serializer
-
 class GeeksSerializer(serializers.HyperlinkedModelSerializer):
     # specify model and fields
     class Meta:

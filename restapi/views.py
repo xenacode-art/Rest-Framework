@@ -6,9 +6,9 @@ from rest_framework import viewsets
 from .models import GeeksModel
 
 
-class GeekViewSet(viewsets.ModelViewSet):
+class GeeksViewSet(viewsets.ModelViewSet):
     # define queryset
-    queryset = GeeksModel.object.all()
+    queryset = GeeksModel.objects.all()
 
     # specify serializer to be used
     serializer_class = GeeksSerializer
